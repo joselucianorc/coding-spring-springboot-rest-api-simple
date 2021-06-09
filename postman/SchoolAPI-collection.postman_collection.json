@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "d575dd2f-9c80-48ab-9a8a-d76db1122c38",
+		"name": "AppEngine-GetRequests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get sem parâmetros",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8081/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						""
+					]
+				},
+				"description": "cxcz"
+			},
+			"response": []
+		},
+		{
+			"name": "Get com parâmetros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
